@@ -1,0 +1,3 @@
+
+DNA='ATZCAGATGATACATZGACA'
+print(DNA.isalnum())
