@@ -1,0 +1,3 @@
+
+x= "ATACATAGATGACATGACATGAC"
+print (len(x))
