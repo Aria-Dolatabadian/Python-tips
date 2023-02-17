@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_excel (r'D:\python\Data.xlsx')
+df = pd.read_excel (r'Data.xlsx')
 print (df)
 print('...............................')
 
