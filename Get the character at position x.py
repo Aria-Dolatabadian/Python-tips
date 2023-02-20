@@ -1,0 +1,2 @@
+DNA = "ATACAGATGACTTA"
+print(DNA[0],DNA[3])
