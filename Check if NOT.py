@@ -1,0 +1,2 @@
+DNA = "ATAGATACAGATGACA"
+print("GGAA" not in DNA)
