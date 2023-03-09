@@ -16,3 +16,5 @@ print(type(x))
 #For example, the expression
 #np.loadtxt('my_file.csv', skiprows=1, delimiter=',') 
 #returns a NumPy array from the 'my_file.csv' with delimiter symbols ',' while skipping the first line.
+
+#https://blog.finxter.com/how-to-convert-a-csv-to-numpy-array-in-python/
