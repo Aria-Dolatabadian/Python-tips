@@ -1,0 +1,8 @@
+import pandas as pd
+import csv, json
+data = pd.read_csv("iris.csv")
+
+json_data = data.to_json(orient='records')
+
+with open('iris.json', 'w') as f:
+    f.write(json_data)
