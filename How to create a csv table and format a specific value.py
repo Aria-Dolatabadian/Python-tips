@@ -4,7 +4,7 @@ data = {
     "Class":["RLK","RLP"],
     "Size":[100,150]
 }
-workbook = xlsxwriter.Workbook('d:\python\Genes_Table.xlsx')
+workbook = xlsxwriter.Workbook('Genes_Table.xlsx')
 book_format = workbook.add_format(properties={'bold': True, 'font_color': 'red'})
 worksheet = workbook.add_worksheet('Gene')
 for col_num, header in enumerate(data.keys()):
