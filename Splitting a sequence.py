@@ -1,0 +1,3 @@
+DNA = "AAAAAAAAAAXCCCCCCCCCXGGGGGXTTTTTTT"
+Seq = DNA.split("X")
+print(str(Seq))
