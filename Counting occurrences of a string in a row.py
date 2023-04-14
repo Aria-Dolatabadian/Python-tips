@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv (r'D:\python\Primer.csv')
+df = pd.read_csv (r'Primer.csv')
 print (df.columns)
 df['count'] = df['Seq'].str.count('GC')
 print (df)
