@@ -1,6 +1,6 @@
 import csv
 import collections
-napus = open('D:\python\Bnapus.csv', 'r')
+napus = open('Bnapus.csv', 'r')
 genome = csv.DictReader(napus)
 gene = collections.defaultdict(int)
 
