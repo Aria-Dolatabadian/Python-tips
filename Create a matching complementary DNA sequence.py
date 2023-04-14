@@ -1,0 +1,11 @@
+template='ATCGATCGATCG'
+a=template.replace('A','w')
+b=a.replace('T','x')
+c=b.replace('C','y')
+d=c.replace('G','z')
+e=d.replace('w','T')
+f=e.replace('x','A')
+g=f.replace('y','G')
+complementary=g.replace('z','C')
+print("Template strand:     ",template)
+print("Complementary strand:",complementary)
