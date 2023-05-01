@@ -1,0 +1,18 @@
+import csv
+
+def delete_rows_with_value(input_file, output_file, value):
+    with open(input_file, 'r', newline='') as file:
+        reader = csv.reader(file)
+        data = list(reader)  # Read the CSV data into a list
+
+    modified_data = [row for row in data if value not in row]  # Filter rows based on the specific value
+
+    with open(output_file, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerows(modified_data)  # Write the modified data to the output CSV file
+
+# Example usage
+input_csv = 'row.csv'
+output_csv = 'output_row.csv'
+specific_value = 'Error'
+delete_rows_with_value(input_csv, output_csv, specific_value)
