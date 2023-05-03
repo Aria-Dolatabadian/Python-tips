@@ -13,7 +13,7 @@ with gzip.open(filename, 'rt') as f_in:
     content = f_in.read()
 
 # Create the output .fasta file path
-output_path = file_prefix + '.fasta'
+output_path = file_prefix 
 
 # Write the contents to the output .fasta file
 with open(output_path, 'w') as f_out:
