@@ -1,0 +1,12 @@
+# Get input from user
+initial_concentration = float(input("Enter the initial concentration of the DNA sample (ng/μl): "))
+initial_volume = float(input("Enter the initial volume of the DNA sample (μl): "))
+
+# Given value
+final_concentration = 10  # ng/μl
+
+# Calculate the volume of water to add
+water_volume = (initial_concentration * initial_volume) / final_concentration - initial_volume
+
+# Print the volume of water to add
+print(f"You need to add {water_volume:.2f} μl of water to dilute the DNA sample to {final_concentration} ng/μl.")
