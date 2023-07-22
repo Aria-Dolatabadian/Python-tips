@@ -1,4 +1,5 @@
 Seq = "AGGUGACGAUUGUGACGAT"
+
 if Seq[-1] == 'T':
    print("Last character is 'T' ")
 else:
