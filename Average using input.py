@@ -9,6 +9,7 @@ g= float(input("Statistics: "))
 Sum = ( a+b+c+d+e+f+g)
 result = (Sum*100)
 Average= (result/700)
+
 print(Average)
 if Average >90 :
  print("Congratulations " + name + " you passed")
