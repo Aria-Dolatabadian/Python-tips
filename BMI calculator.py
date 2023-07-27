@@ -14,7 +14,6 @@ elif bmi > 35 :
 else:
     print('There is an error with your input')
 
-
 #or
 
 def test(x,y):
