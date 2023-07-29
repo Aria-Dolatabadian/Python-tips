@@ -13,6 +13,7 @@ ethanol_volume_ml = (required_volume_ml * desired_percentage) / initial_percenta
 # Calculate the volume of water needed in milliliters
 water_volume_ml = required_volume_ml - ethanol_volume_ml
 
+
 # Print the volumes of ethanol and water needed
 print(f"Volume of ethanol needed: {ethanol_volume_ml:.2f} mL")
 print(f"Volume of water needed: {water_volume_ml:.2f} mL")
