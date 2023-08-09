@@ -1,6 +1,5 @@
 import gzip
 import os
-
 # Specify the filename of the .fasta.gz file
 filename = 'Lep14_1_L48BG_TGCCGGTCAG-CCTGATACAA_L001_R1.fastq.gz'
 
