@@ -10,7 +10,6 @@ with open('Difference.csv', 'w') as outFile:
 #or
 
 
-
 with open('1.csv', 'r') as t1, open('2.csv', 'r') as t2:
     filecoming = t1.readlines()
     filevalidation = t2.readlines()
