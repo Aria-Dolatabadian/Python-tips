@@ -5,6 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
 import scipy.stats as stats
 
+
 # Read data from CSV
 data = pd.read_csv("data.csv")
 # Display the variable names in the CSV file
