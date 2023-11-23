@@ -1,0 +1,48 @@
+import turtle
+
+def draw_rectangle(width, height, color):
+    turtle.begin_fill()
+    turtle.fillcolor(color)
+    for _ in range(2):
+        turtle.forward(width)
+        turtle.left(90)
+        turtle.forward(height)
+        turtle.left(90)
+    turtle.end_fill()
+
+def draw_text(text, x, y, font_size, color):
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+    turtle.color(color)
+    turtle.write(text, align='center', font=('Arial', font_size, 'normal'))
+
+def draw_iran_flag():
+    turtle.speed(2)
+
+    # Draw the green stripe
+    turtle.penup()
+    turtle.goto(-150, 50)
+    turtle.pendown()
+    draw_rectangle(300, 50, '#007A3D')  # Green
+
+    # Draw the white stripe
+    turtle.penup()
+    turtle.goto(-150, 0)
+    turtle.pendown()
+    draw_rectangle(300, 50, 'white')  # White
+
+    # Draw the red stripe
+    turtle.penup()
+    turtle.goto(-150, -50)
+    turtle.pendown()
+    draw_rectangle(300, 50, '#CE1126')  # Red
+
+    # Draw the text emblem in the middle of the white stripe
+    draw_text("Woman Life Freedom", 0, 18, 10, 'black')
+
+    turtle.hideturtle()
+    turtle.done()
+
+# Draw the Iranian flag with the text emblem in the middle
+draw_iran_flag()
