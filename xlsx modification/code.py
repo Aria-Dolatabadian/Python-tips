@@ -1,5 +1,4 @@
 #This code reads xlsx file and highlights different RGAs with different colour also highlights values (gene size) between 1000000 and 5000000
-
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
