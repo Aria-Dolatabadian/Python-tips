@@ -1,4 +1,3 @@
-
 # Prompt the user for the initial percentage of ethanol
 initial_percentage = float(input("Enter the initial percentage of ethanol: "))
 
