@@ -27,7 +27,6 @@ else:
 
 
 
-
 #or
 
 def find_compatible_blood_types(blood_group, rh_factor):
