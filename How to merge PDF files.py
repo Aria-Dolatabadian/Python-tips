@@ -2,9 +2,9 @@
 #2: Copy the file in WD
 
 import os
-from PyPDF2 import PdfFileMerger
+from PyPDF2 import PdfMerger
 source_dir = os.getcwd()
-merger = PdfFileMerger()
+merger = PdfMerger()
 for item in os.listdir(source_dir):
     if item.endswith('pdf'):
         merger.append(item)
