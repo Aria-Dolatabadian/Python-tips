@@ -1,14 +1,16 @@
 import qrcode
 
-# Replace with your actual name and phone number
+# Replace with your actual name, phone number, and email
 name = "name"
 phone_number = "123456789"
+email = "your.email@example.com"
 
 # Create a vCard format string
 vcard = f"""BEGIN:VCARD
 VERSION:3.0
 FN:{name}
 TEL:{phone_number}
+EMAIL:{email}
 END:VCARD"""
 
 # Generate QR code
